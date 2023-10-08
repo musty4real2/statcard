@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0; 
+    background-color: hsl(233, 47%, 7%);;
+}
+.parent {
+    width:auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    max-height: fit-content;
+  }
+.card-left{
+    display:inline-block;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(244, 38%, 16%);
+    width: 300px;
+    color:hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: 400px;
+    font-family:Inter;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-right: 90px;
+    vertical-align: middle;
+    min-width: 300px;
+    height: 200px;
+    
+    /* box-shadow: 0 0 8px 8px white inset; */
+   
+}
+.card-left h1{
+    text-align: left;
+}
+
+.card-left p{
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    
+}
+
+.card-left span{
+    color: blueviolet;
+}
+
+.tagline-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 70px;
+}
+
+.tagline-1{
+    margin-top: 10px;
+    width: 20px;
+    text-align: center;
+    
+}
+.tagline-1 h2{
+    color:whitesmoke;
+    margin-bottom: 0%;
+    text-align: center;
+}
+.tagline-1 span{
+    opacity: 0.6;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 0%;
+    font-size: 10px;
+}
+.card-right{
+    display:inline-block;
+    position: relative;
+    margin-right: auto;
+    margin-left:-8px;
+    background-color: hsl(244, 38%, 16%);
+    width: 300px;
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 400px;
+    font-family:Inter;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+    vertical-align: middle;
+    min-width: 300px;
+    height: 200px;
+
+}
+
+.card-right::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsla(277, 64%, 61%, 0.493); /* Adjust the background color and opacity */
+}
